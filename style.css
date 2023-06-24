@@ -61,3 +61,15 @@ body {
 .input-group.success input {
     border-color: rgb(29, 200, 29);
 }
+
+@media screen and (max-width: 450px) {
+    .form-container {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .form-container {
+        width: 265px;
+    }
+}
